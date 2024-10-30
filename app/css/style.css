@@ -1,0 +1,20 @@
+
+
+html, body, *{
+  margin: 0;
+  padding:0 ;
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+}
+
+body{
+  background-color: red;
+}
+
+
+
+/*https://huemint.com/brand-intersection/#palette=8cb7a6-4d424d-797a89-f3eef0
+https://huemint.com/brand-intersection/#palette=4e3433-fbae41-ece0bd-ed5939
+https://huemint.com/brand-intersection/#palette=eff2ff-002e5a-2a7987-74c4c3*/
+
