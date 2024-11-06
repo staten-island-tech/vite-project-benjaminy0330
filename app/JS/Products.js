@@ -1,4 +1,4 @@
-const items =
+const food =
     [
         { name: "Sushi", origin: "Japan", price: 15.99 },
         { name: "Tacos", origin: "Mexico", price: 8.99 },
@@ -21,3 +21,6 @@ const items =
         { name: "Goulash", origin: "Hungary", price: 8.99 },
         { name: "Fish and Chips", origin: "United Kingdom", price: 11.50 },
     ]
+
+
+export {food};
