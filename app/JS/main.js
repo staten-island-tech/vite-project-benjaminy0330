@@ -7,14 +7,18 @@ console.log(cheapfood)
 const expensivefood = food.filter((food) => (food.price > 10))
 console.log(expensivefood)
 
+const cardlocation = document.getElementById("cards");
+
 food.forEach((food) => {
     const html = `
     <div class = "card">
-        <h2>${food.name}</h2>
-        <h2>${food.origin}</h2>
-        <h2>${food.price}</h2>
+        <h2 id = "name">${food.name}</h2>
+        <h4 id = "origin">${food.origin}</h4>
+        <h2 id = "price">${food.price}</h2>
     </div>
     `;
+
+cardlocation.insertAdjacentHTML("beforeend", html)
 
 })
 

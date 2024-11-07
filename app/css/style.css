@@ -36,10 +36,42 @@ body{
   margin-right: 2rem;
 }
 
+.card{
+  border: 8px solid brown;
+  border-radius: 2rem;
+  width: 61rem;
+  text-align: center;
+  background-color: rgb(255, 240, 211);
+  box-shadow: 5px 5px 5px rgb(82, 77, 77);
+  transition: 0.2s;
+  padding-bottom: 2rem;
+  color: brown;
+  margin: 1rem;
+  
+}
 
 
+.cards{
+  font-size: 8rem;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+  flex-wrap: wrap; 
 
+}
 
+#name{
+  font-size: 5rem;
+}
+
+#price{
+  font-size: 5rem;
+}
+
+#origin{
+  font-size: 3rem;
+}
 
 
 
