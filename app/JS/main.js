@@ -7,6 +7,9 @@ console.log(cheapfood)
 const expensivefood = food.filter((food) => (food.price > 10))
 console.log(expensivefood)
 
+const vegetariantrue = food.filter((food) => (food.vegetarian))
+console.log(vegetariantrue)
+
 const cardlocation = document.getElementById("cards");
 
 food.forEach((food) => {

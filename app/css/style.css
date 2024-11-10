@@ -9,19 +9,44 @@ html, body, *{
 }
 
 body{
-  background-color: floralwhite;
+  background-color: var(--primary)
 }
 
+:root{
+  --floralwhite: floralwhite;
+  --brown: brown;
+  --yellowwhite: rgb(255, 243, 219);
+  --dark: rgb(49, 49, 49);
+  --white: white;
+  --grey: rgb(82, 82, 82);
+
+  /* intentions */
+  --primary: var(--floralwhite);
+  --secondary: var(--brown);
+  --thirdary: var(--yellowwhite);
+} 
+.lively{
+  --primary: var(--floralwhite);
+  --secondary: var(--brown);
+  --thirdary: var(--yellowwhite);
+}
+
+.gloomy{
+  --primary: var(--dark);
+  --secondary: var(--white);
+  --thirdary: var(--grey);
+}
+
+
 .title{
-  font-size: 5rem;
+  font-size: 9rem;
   text-align: center;
   margin-top: 2rem;
   margin-bottom: 3rem;
-  background-color: floralwhite;
   border-radius: 2rem;
-  border-color: solid brown;
-  border: 3rem;
-  color: brown;
+  background-color: var(--thirdary);
+  border: 0.5rem solid var(--secondary);
+  color: var(--secondary);
 }
 
 .instructions{
@@ -37,15 +62,15 @@ body{
 }
 
 .card{
-  border: 8px solid brown;
+  border: 8px solid var(--secondary);
   border-radius: 2rem;
   width: 61rem;
   text-align: center;
-  background-color: rgb(255, 240, 211);
+  background-color: var(--thirdary);
   box-shadow: 5px 5px 5px rgb(82, 77, 77);
   transition: 0.2s;
   padding-bottom: 2rem;
-  color: brown;
+  color: var(--secondary);
   margin: 1rem;
   
 }
