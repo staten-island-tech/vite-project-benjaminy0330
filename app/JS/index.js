@@ -1,5 +1,5 @@
 import "../css/style.css"
-import {food} from "../JS/Products.js"
+import {food} from "./Products.js"
 
 
 document.querySelector(".theme").addEventListener("click", function() {
