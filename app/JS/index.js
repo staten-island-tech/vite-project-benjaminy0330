@@ -19,6 +19,7 @@ food.forEach((food) => {
         <div class = "card">
             <h2>${food.name}</h2>
             <h2>${food.origin}</h2>
+            <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
         `;
@@ -35,6 +36,7 @@ document.querySelector(".all").addEventListener("click", function(){
         <div class = "card">
             <h2>${food.name}</h2>
             <h2>${food.origin}</h2>
+            <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
         `;
@@ -53,6 +55,7 @@ document.querySelector(".low").addEventListener("click", function(){
         <div class = "card">
             <h2>${food.name}</h2>
             <h2>${food.origin}</h2>
+            <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
         `;
@@ -72,6 +75,7 @@ document.querySelector(".high").addEventListener("click", function(){
         <div class = "card">
             <h2>${food.name}</h2>
             <h2>${food.origin}</h2>
+            <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
         `;
@@ -93,6 +97,7 @@ document.querySelector(".vegan").addEventListener("click", function(){
         <div class = "card">
             <h2>${food.name}</h2>
             <h2>${food.origin}</h2>
+            <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
         `;

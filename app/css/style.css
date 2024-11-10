@@ -68,7 +68,7 @@ body{
   width: 61rem;
   text-align: center;
   background-color: var(--thirdary);
-  box-shadow: 5px 5px 5px rgb(82, 77, 77);
+  
   transition: 0.2s;
   padding-bottom: 2rem;
   color: var(--secondary);
@@ -85,6 +85,12 @@ body{
   padding-top: 3rem;
   flex-wrap: wrap; 
 
+}
+
+.image{
+  width: 45rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 #name{
