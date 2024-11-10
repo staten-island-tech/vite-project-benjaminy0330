@@ -16,9 +16,9 @@ body{
   --floralwhite: floralwhite;
   --brown: brown;
   --yellowwhite: rgb(255, 243, 219);
-  --dark: rgb(49, 49, 49);
-  --white: white;
-  --grey: rgb(82, 82, 82);
+  --dark: #2C1B18;
+  --white: hsl(44, 86%, 92%);
+  --grey: #9b7d65;
 
   /* intentions */
   --primary: var(--floralwhite);
@@ -52,6 +52,7 @@ body{
 .instructions{
   font-size: 2.5rem;
   text-align: center;
+  color: var(--secondary);
 }
 
 .buttons{
