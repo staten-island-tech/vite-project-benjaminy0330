@@ -18,7 +18,7 @@ food.forEach((food) => {
         const html = `
         <div class = "card">
             <h2>${food.name}</h2>
-            <h2>${food.origin}</h2>
+            <h2 class = "origin">${food.origin}</h2>
             <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
@@ -35,7 +35,7 @@ document.querySelector(".all").addEventListener("click", function(){
         const html = `
         <div class = "card">
             <h2>${food.name}</h2>
-            <h2>${food.origin}</h2>
+            <h2 class = "origin">${food.origin}</h2>
             <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
@@ -54,7 +54,7 @@ document.querySelector(".low").addEventListener("click", function(){
         const html = `
         <div class = "card">
             <h2>${food.name}</h2>
-            <h2>${food.origin}</h2>
+            <h2 class = "origin">${food.origin}</h2>
             <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
@@ -74,7 +74,7 @@ document.querySelector(".high").addEventListener("click", function(){
         const html = `
         <div class = "card">
             <h2>${food.name}</h2>
-            <h2>${food.origin}</h2>
+            <h2 class = "origin">${food.origin}</h2>
             <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>
@@ -89,14 +89,14 @@ document.querySelector(".high").addEventListener("click", function(){
 
 document.querySelector(".vegan").addEventListener("click", function(){
     document.querySelector(".cards").innerHTML = "";
-    const vegetarian = food.filter(food => food.vegetarian);
+    const vegetarian = food.filter(food => food.vegetarian.includes("true"));
     console.log(vegetarian);
 
     vegetarian.forEach((food) => {
         const html = `
         <div class = "card">
             <h2>${food.name}</h2>
-            <h2>${food.origin}</h2>
+            <h2 class = "origin">${food.origin}</h2>
             <img src="${food.image}" alt="food-image" class ="image">
             <h2>${food.price}</h2>
         </div>

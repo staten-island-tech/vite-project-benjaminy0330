@@ -9,7 +9,8 @@ html, body, *{
 }
 
 body{
-  background-color: var(--primary)
+  background-color: var(--primary);
+  font-family: "Jost", sans-serif;
 }
 
 :root{
@@ -93,7 +94,13 @@ body{
   margin-bottom: 2rem;
 }
 
+.origin{
+  font-size: 2rem;
+}
 
+.all, .low, .high, .vegan, .theme{
+  font-family: "Jost", sans-serif;
+}
 
 
 /*https://huemint.com/brand-intersection/#palette=8cb7a6-4d424d-797a89-f3eef0
