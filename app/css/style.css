@@ -66,7 +66,7 @@ body{
 .card{
   border: 8px solid var(--secondary);
   border-radius: 2rem;
-  width: 60rem;
+  width: 40rem;
   text-align: center;
   background-color: var(--thirdary);
   
@@ -79,17 +79,13 @@ body{
 
 
 .cards{
-  font-size: 8rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
-  flex-wrap: wrap; 
-
 }
 
 .image{
-  width: 45rem;
+  width: 30rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
